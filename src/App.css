@@ -1,38 +1,82 @@
+*{
+  background-color: #484f5c;
+}
+
 .App {
+  margin-top: 100px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+
+}
+
+li{
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.AddTask{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.newTask{
+  height: 30px;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  width: 400px;
+  font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+  background-color: rgb(24, 48, 70);
+  border-radius: 15px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(179, 202, 223);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.filter{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+label{
+  margin-right: 20px;
+  color: rgb(179, 202, 223);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checkbox{
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+ul{
+  margin-left: 550px;
+  list-style-type: none;
+}
+
+.save{
+  background-color: whitesmoke;
+  border-radius: 30px;
+  width: 250px;
+  font-size: 16px;
+  height: 35px;
+}
+
+#Edit{
+  height: 35px;
+  width: 80px;
+  padding: 0;
+}
+
+li{
+  margin-bottom: 15px;
 }
